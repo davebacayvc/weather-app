@@ -20,7 +20,7 @@ $container-padding: 5rem;
     padding: $container-padding;
 
     .user-info {
-      margin-bottom: 2rem;
+      margin-bottom: 4rem;
       h2 {
         margin-bottom: 0.3rem;
         font-weight: 900;
@@ -30,6 +30,11 @@ $container-padding: 5rem;
         font-size: 1.3rem;
         font-weight: 300;
       }
+    }
+    .search-input {
+      display: block;
+      margin: auto;
+      margin-bottom: 1.5rem;
     }
   }
 }

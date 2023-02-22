@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../../components/Button/Button";
+import Input from "../../../components/Input/Input";
 
 const WeatherSearch = () => {
   return (
@@ -9,8 +10,12 @@ const WeatherSearch = () => {
         <p>https://github.com</p>
       </div>
       <div className="weather-search">
-        <input type="text" />
-        <Button variant="secondary">Dispaly Weather</Button>
+        <Input
+          type="text"
+          className="search-input"
+          placeholder="Search a city..."
+        />
+        <Button variant="primary">Display Weather</Button>
       </div>
     </div>
   );
