@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
       </div>
       <ComponentValidator showNull={false}>
         <div className="navbar-actions">
-          <Button variant="secondary">Login</Button>
+          <Button variant="secondary">Logout</Button>
         </div>
       </ComponentValidator>
     </div>

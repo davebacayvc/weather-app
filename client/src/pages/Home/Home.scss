@@ -1,0 +1,35 @@
+$container-width: 600px;
+$container-padding: 5rem;
+.home-container {
+  .welcome-message {
+    padding: $container-padding;
+    text-align: left;
+    width: $container-width;
+    margin: auto;
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .weather-search-container {
+    width: $container-width;
+    text-align: center;
+    margin: auto;
+    padding: $container-padding;
+
+    .user-info {
+      margin-bottom: 2rem;
+      h2 {
+        margin-bottom: 0.3rem;
+        font-weight: 900;
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.3rem;
+        font-weight: 300;
+      }
+    }
+  }
+}
