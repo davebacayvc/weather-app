@@ -1,0 +1,23 @@
+.navbar {
+  border-bottom: 1px solid #eee;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-brand {
+    display: flex;
+    align-items: center;
+    img {
+      width: 50px;
+      margin-right: 2rem;
+    }
+    &-name {
+      display: inline-block;
+      font-weight: 900;
+      color: #333;
+      text-transform: uppercase;
+      font-size: 2rem;
+    }
+  }
+}
