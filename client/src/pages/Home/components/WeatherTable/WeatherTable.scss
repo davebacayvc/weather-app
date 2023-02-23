@@ -1,0 +1,40 @@
+$container-width: 600px;
+$container-padding: 5rem;
+
+.weather-container {
+  width: $container-width;
+  margin: auto;
+  margin-top: 5rem;
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .weather-actions {
+    text-align: right;
+  }
+}
+.weather-label {
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
